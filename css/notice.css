@@ -1,0 +1,59 @@
+/* .notice{
+    height: 5vh;
+    background-color: antiquewhite;
+} */
+ 
+ 
+.notice {
+    width: 100%;
+    overflow: hidden;
+    background: linear-gradient(90deg, #ffdd00, #ff7700); /* Gradient background */
+    color: #333; /* Text color */
+    border-radius: 5px; /* Rounded corners */
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    position: relative;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center; /* Center items vertically */
+    white-space: nowrap;
+}
+
+.notice-heading {
+    background: rgba(255, 255, 255, 0.9); /* Slightly opaque background for heading */
+    border-radius: 3px; /* Rounded corners for heading background */
+    padding: 5px 10px; /* Padding around heading text */
+    font-size: 20px; /* Larger font size for heading */
+    font-weight: bold; /* Bold text for heading */
+    color: #222; /* Darker color for the heading */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Shadow for heading */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Text shadow for heading */
+    margin-right: 20px; /* Space between heading and scrolling text */
+}
+
+.notice-content {
+    flex: 1; /* Take up remaining space */
+    overflow: hidden;
+}
+
+.notice-text {
+    display: inline-block;
+    padding-left: 100%; /* Start off-screen */
+    animation: scroll-left 10s linear infinite;
+    background: rgba(255, 255, 255, 0.7); /* Slight background for text readability */
+    border-radius: 3px; /* Rounded corners for text background */
+    padding: 10px 15px; /* Padding inside the text box */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Shadow around text */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Text shadow for better readability */
+    font-size: 18px; /* Text size */
+    font-weight: bold; /* Text weight */
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(100%); /* Start from the right edge */
+    }
+    100% {
+        transform: translateX(-100%); /* End at the left edge */
+    }
+}

@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url('../pictures/background-cover-pic2.jpg');
+    background-size: cover; /* Ensures the image covers the entire viewport */
+    background-position: center center; /* Centers the image in the viewport */
+    background-attachment: fixed; /* Keeps the background fixed during scrolling */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    margin: 0; /* Removes default body margin */
+    height: 100vh; /* Makes sure the body takes up the full height of the viewport */
+}

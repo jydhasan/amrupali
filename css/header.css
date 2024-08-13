@@ -1,0 +1,51 @@
+.header{
+    height: 10vh;
+}
+
+
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: antiquewhite; */
+    background: linear-gradient(90deg, #ffdd00, #ff7700); /* Gradient background */
+    align-items: center;
+
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+}
+.logo img{
+    display: flex;
+    width: 50px;
+    height: 50px;
+}
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0 10px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    /* jjj */
+    background: rgba(255, 255, 255, 0.9); /* Slightly opaque background for heading */
+    border-radius: 3px; /* Rounded corners for heading background */
+    padding: 5px 10px; /* Padding around heading text */
+    font-size: 20px; /* Larger font size for heading */
+    font-weight: bold; /* Bold text for heading */
+    color: #222; /* Darker color for the heading */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Shadow for heading */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Text shadow for heading */
+    margin-right: 20px; /* Space between heading and scrolling text */
+}

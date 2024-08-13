@@ -1,0 +1,31 @@
+.top-header{
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: antiquewhite; */
+    background-color: rgba(250, 235, 215, 0.338);
+    align-items: center;
+    /* padding: 10px 20px; */
+}
+.top-header span{
+    font-family: 'Arial', sans-serif;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    color:gold;
+    line-height: 5vh;
+}
+.top-second{
+    border-bottom: 5vh solid #555;
+	border-left: 50px solid transparent;
+	height: 0;
+	width: 325px;
+}
+.top-first{
+    border-bottom: 5vh solid #555;
+	border-right: 50px solid transparent;
+	height: 0;
+	width: 325px;
+    padding-left: 20px;
+}
